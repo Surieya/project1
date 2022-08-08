@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>forms</title>
+    <meta charset="UTF-8"/>
+  </head>
+  <body>  
+ <h1>Forms</h1>
+ <!---->
+ <form action="youtube.com" target="_blank" autocomplete="on">
+  <!--the tags which are placed inside form is called as form element-->
+  <label>first name </label><br>
+  <input type="text" autocomplete="on"><br>
+  <label>password</label><br> 
+  <input type="password"><br>
+  <input type="submit">
+ </form>
+ <!--select box-->
+ <h2>select box</h2>
+ <form>
+  <label>choose a car brand</label><br>
+   <select size="2" multiple>
+    <option selected>Audi</option>
+    <option>BMW</option>
+    <option>Benz</option>
+    <option>Jaguar</option>
+  </select><br>
+ <input type="submit">   
+ </form>
+ <!--text area-->
+  <h2>text area</h2>
+  <form>
+    <textarea rows="30" cols="30">
+      hello
+    </textarea><br>
+    <input type="submit">
+  </form>
+ <!--button-->
+ <h2>Button</h2>
+ <button type="button"> click meee</button>
+ <!--field set and legend used to group and
+  caption the whole form -->
+ <h2> field set and legend</h2>
+ <form>
+  <fieldset>
+    <legend>
+      General info
+    </legend>
+    <lable>name</lable><br>
+    <input type="text"><br>
+    <label>password</label><br>
+    <input type="password"><br>
+    <input type="submit">
+  </fieldset>
+ </form>
+ <!--datalist similar to drop down but the option 
+  are pre defined see the output for difference....refer w3 -->
+<!-- input types in forms are many types ref w3 ... most commonly 
+used ones are radio,password,checkbox,button,text,submit,reset-->
+<h2><b>input attributes</b></h2>
+<p> value size(default 20) and multiple are already seen</p>
+<p>disabled attribute unusable and unclickable </p>
+<input type="text" disabled><br>
+<p>the maximum length of this input box is 5 ,placeholder and required , autofocus</p>
+<input type="text" maxlength="5" placeholder="max of 5 characters" requried autofocus>
+<input type="submit">
+<!--form attributes-->
+<h2>Form attributes</h2>
+<!--refer w3-->
+  </body>
+</html>
